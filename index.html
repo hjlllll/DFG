@@ -95,7 +95,7 @@ right part sketches the collection process of the dexterous functional grasp pos
       <div class="col-12 text-center">
         <hr style="margin-top:0px">
         <div class="row justify-content-center" style="align-items:center; display:flex;">
-          <img src="images/method-pipeline2.png" alt="input" class="img-responsive" width="90%" />
+          <img src="images/dataset.png" alt="input" class="img-responsive" width="90%" />
           <br>
         </div>
         <p class="text-justify">
@@ -117,8 +117,7 @@ grasp, which covers 559 instances across 12 categories and more than 14k grasp 
         <h2><strong>Abstract</strong></h2>
         <hr style="margin-top:0px">
         <p class="text-justify">
-        Robot grasp dataset is the basis of designing the robot’s grasp
-        generation model. Compared with the building grasp dataset
+        Robot grasp dataset is the basis of designing the robot’s grasp generation model. Compared with the building grasp dataset
         for Low-DOF grippers, it is harder for High-DOF dexterous
         robot hand. Most current datasets meet the needs of generating stable grasps, but they are not suitable for dexterous hands
         to complete human-like functional grasp, such as grasp the
@@ -130,7 +129,7 @@ grasp, which covers 559 instances across 12 categories and more than 14k grasp 
         environment assisted by human demonstration in real world.
         By using this system, dexterous grasp data can be collected
         efficiently as well as cost-effective. Finally, we construct the
-        first dexterous functional grasp dataset with rich pose annotations. A Functional Grasp Synthesis Model is also provided to
+        first dexterous functional grasp dataset with rich pose annotations. A Functional Grasp Synthesis Model is also provided to
         validate the effectiveness of the proposed system and dataset.
         </p>
       </div>
@@ -161,45 +160,40 @@ grasp, which covers 559 instances across 12 categories and more than 14k grasp 
 <section>
   <div class="container" style="width:58%">
     <div class="row">
-      <div class="col-12">
-        <h2><strong>Qualitative results</strong></h2>
+      <div class="col-12 text-center">
         <hr style="margin-top:0px">
-        <img src="images/result01.png" width="15%" style="margin-bottom:20px;">
-        <img src="images/result02.png" width="15%" style="margin-bottom:20px;">
-        <img src="images/result03.png" width="15%" style="margin-bottom:20px;">
-        <img src="images/result04.png" width="15%" style="margin-bottom:20px;">
-        <img src="images/result05.png" width="15%" style="margin-bottom:20px;">
-        <img src="images/result06.png" width="15%" style="margin-bottom:20px;">
-        <img src="images/result07.png" width="15%" style="margin-bottom:20px;">
-        <img src="images/result08.png" width="15%" style="margin-bottom:20px;">
-        <img src="images/result09.png" width="15%" style="margin-bottom:20px;">
-        <img src="images/result10.png" width="15%" style="margin-bottom:20px;">
-        <img src="images/result11.png" width="15%" style="margin-bottom:20px;">
-        <img src="images/result12.png" width="15%" style="margin-bottom:20px;">
-        <img src="images/result13.png" width="15%" style="margin-bottom:20px;">
-        <img src="images/result14.png" width="15%" style="margin-bottom:20px;">
-        <img src="images/result15.png" width="15%" style="margin-bottom:20px;">
-        <img src="images/result16.png" width="15%" style="margin-bottom:20px;">
-        <img src="images/result17.png" width="15%" style="margin-bottom:20px;">
-        <img src="images/result18.png" width="15%" style="margin-bottom:20px;">
+        <div class="row justify-content-center" style="align-items:center; display:flex;">
+          <img src="images/simulation_result2.png" alt="input" class="img-responsive" width="90%" />
+          <br>
+        </div>
         <p class="text-justify">
-          Some diverse grasps on the objects from DexGraspNet.
+      Simulation results in Isaacgym of each category.
         </p>
-        <hr style="margin-top:0px">
-        <img src="images/shand1.png" width="15%" style="margin-bottom:20px;">
-        <img src="images/mano1.png" width="15%" style="margin-bottom:20px;">
-        <img src="images/alg1.png" width="15%" style="margin-bottom:20px;">
-        <img src="images/mano2.png" width="15%" style="margin-bottom:20px;">
-        <img src="images/shand2.png" width="15%" style="margin-bottom:20px;">
-        <img src="images/alg2.png" width="15%" style="margin-bottom:20px;">
-        <p class="text-justify">
-          Some grasps using different dexterous hand. From left to right: ShadowHand, MANO, Allegro.
-        </p>
+        <!-- </div> -->
       </div>
     </div>
   </div>
+</section>
+
+<section>
+  <div class="container" style="width:58%">
+    <div class="row">
+      <div class="col-12 text-center">
+        <hr style="margin-top:0px">
+        <div class="row justify-content-center" style="align-items:center; display:flex;">
+          <img src="images/real_screen.png" alt="input" class="img-responsive" width="90%" />
+          <img src="images/real3.png" alt="input" class="img-responsive" width="90%" />
+          <br>
+        </div>
+        <p class="text-justify">
+ Illustration of real experiment. (a) experimental settings (b) grasp process.
+        </p>
+        <!-- </div> -->
+      </div>
+    </div>
   </div>
 </section>
+  
 <br>
 <br>
 
@@ -211,10 +205,10 @@ grasp, which covers 559 instances across 12 categories and more than 14k grasp 
       <hr style="margin-top:0px">
       <pre style="background-color: #e9eeef;padding: 1.25em 1.5em">
 <code>@article{wang2022dexgraspnet,
-  title={DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation},
-  author={Wang, Ruicheng and Zhang, Jialiang and Chen, Jiayi and Xu, Yinzhen and Li, Puhao and Liu, Tengyu and Wang, He},
-  journal={arXiv preprint arXiv:2210.02697},
-  year={2022}
+  title={DexFuncGrasp: A Robotic Dexterous Functional Grasp Dataset constructed from a Cost-Effective Real-Simulation Annotation System},
+  author={Jinglue Hang, Xiangbo Lin, Tianqiang Zhu, Xuanheng Li, Rina Wu, Xiaohong Ma and Yi Sun</a><sup></sup>},
+  journal={AAAI 2024},
+  year={2024}
 }</code></pre>
     </div>
   </div>
@@ -227,8 +221,7 @@ grasp, which covers 559 instances across 12 categories and more than 14k grasp 
     <div class="col-12">
       <h2><strong>Contact</strong></h2>
       <hr style="margin-top:0px">
-      <p>If you have any questions, please feel free to contact <b>Ruicheng Wang</b> at wrc0326@stu.pku.edu.cn,
-        <b>Jialiang Zhang</b> at jackzhang0906@126.com, and <b>He Wang</b> at hewang@pku.edu.cn.
+      <p>If you have any questions, please feel free to contact <b>Jinglue Hang</b> at 13942210907@163.com.
       </p>
       </pre>
     </div>
